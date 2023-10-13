@@ -1,0 +1,164 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+@font-face {
+      font-family: 'Byekan' ;
+      src: url('../fonts/BYekan.ttf') format('truetype') ,
+           url('../fonts/BYekan.woff') format('woff') ;
+}
+
+@font-face {
+      font-family: 'lalezar' ;
+      src: url('../fonts/Lalezar-Regular.ttf') format('truetype') ,
+           url('../fonts/Lalezar-Regular.woff') format('woff') ;
+}
+
+body {
+      font-family: Byekan ;
+}
+
+.header {
+      height: 450px;
+      background-image: url(https://img.freepik.com/free-photo/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background_144627-24860.jpg?w=740&t=st=1697140470~exp=1697141070~hmac=6912d0fbbe643f2ae2f19b76658550ce1a2a55720866deb7010ff4b8e33b7f9f);
+      background-color: #b7b7b7;
+      background-blend-mode: multiply;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding-top: 20px;
+      text-align: center;
+}
+
+.header .nav-list {
+      list-style-type: none;
+      
+}
+
+.header .nav-list .nav-item {
+      display: inline-block;
+      padding: 15px;
+}
+
+.header .nav-list .nav-item:hover {
+      color: orange;
+      cursor: pointer;
+}
+
+.header .title {
+      font-size: 60px ;
+      font-family: lalezar ;
+      margin-top: 90px;
+}
+
+.header .title span {
+      color: orange;
+}
+
+.header .desc {
+     width: 430px;
+     height: 55px;
+     line-height: 55px;
+     margin: auto;
+     background-color: rgba(0, 0, 0, 0.4) ;
+     border-radius: 20px ;
+     -webkit-border-radius: 20px ;
+     -moz-border-radius: 20px ;
+     -ms-border-radius: 20px ;
+     -o-border-radius: 20px ;
+      border: 1px solid white;
+      margin-top: 30px;
+}   
+
+.member {
+      text-align: center;
+      padding: 50px 30px;
+}
+
+.member-list {
+	list-style-type: none;
+      margin-top: 25px;
+}
+.member-item {
+      width: 350px;
+      display: inline-block;
+      margin: 10px;
+      box-shadow: 0 0 15px #bbbb;
+}
+
+.member-pic {
+      width: 100%;
+      height: 250px;
+}
+
+.member-name {
+      font-size: 25px ;
+      margin-top: 5px;
+}
+
+.member-bio {
+      padding: 22px;
+      text-align: justify;
+}
+
+
+.about {
+      background-image: url('https://img.freepik.com/premium-photo/programming-code-abstract-technology-background-software-developer-computer-script_34663-31.jpg?w=740');
+      height: 700px;
+      background-size: cover;
+      padding-top: 50px;
+      background-color: #373837 ;
+      background-blend-mode: multiply;
+      
+      
+}
+
+.circle {
+      width: 600px;
+      height: 600px;
+      background-color: rgb(135, 135, 135, 0.3);
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      margin: auto;
+      padding: 50px 120px ;
+      text-align: center;
+      color: #fff;
+}
+
+.circle p {
+      margin-top: 20px;
+      text-align: justify;
+      line-height: 29px;
+}
+
+.circle h2 {
+      font-size: 40px;
+}
+
+.footer {
+      text-align: center;
+       height: 120px;
+      background-color: #d1d1d1dc;
+      padding-top: 40px;
+}
+
+.social {
+      background-color: #a1a1a1;
+      
+}
+.social img {
+      padding: 10px 3px;
+      width: 80px;
+      height: 105px;
+}
+
+.footer-desc {
+      margin: 20px 0;
+}
+
